@@ -1,4 +1,8 @@
+# Домашнее задание к занятию «Базовые объекты K8S»
+1. Manifest файл: [pod.yml](./kubernetes%20manifests/pod.yml)
 
+
+   Pod запущен:
 
 <img width="1292" height="77" alt="image" src="https://github.com/user-attachments/assets/20632d4f-d578-4167-93e4-aac796687ba3" />
 
