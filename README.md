@@ -1,6 +1,16 @@
 # Домашнее задание к занятию «Базовые объекты K8S»
-1. Manifest файл: [pod.yml](./kubernetes%20manifests/pod.yml)
+1. Manifest файл: [pod.yml]
 
+apiVersion: v1
+kind: Pod
+metadata:
+  name: hello-world
+spec:
+  containers:
+  - name: echoserver
+    image: gcr.io/kubernetes-e2e-test-images/echoserver:2.2
+    ports:
+    - containerPort: 8080
 
    Pod запущен:
 
